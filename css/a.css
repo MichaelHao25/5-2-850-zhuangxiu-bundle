@@ -1,0 +1,100 @@
+.dog-science-and-technology .col-umns-1{
+    width: 400px; 
+    float: left;
+}
+.dog-science-and-technology .col-umns-2{
+    width: 480px;
+}
+.dog-science-and-technology .pic{
+	position: relative;
+	height: 200px;
+	display: block;
+	width: 100%;
+	background: url() center center/100% 100% no-repeat;
+	transition:  0.3s;
+}
+.dog-science-and-technology .pic .layout{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 24px;
+	color: #fff;
+	background: url('../img/alp.png') left top repeat;
+	opacity: 0;
+	transition:  0.3s;
+}
+.dog-science-and-technology .style-2 .pic .layout{
+	top: 40%;
+	bottom: 40%;
+	font-size: 30px;
+}
+.dog-science-and-technology .pic:hover{
+	background-size: 120% 120%;
+}
+.dog-science-and-technology .pic:hover .layout{
+	opacity: 1;
+}
+.pt15{
+	padding-top: 15px;
+}
+.p0-15{
+	padding: 0 15px;
+}
+.w450 .pic{
+	height: 415px;
+}
+@media(max-width: 1599px){
+	.dog-science-and-technology .col-umns-1{
+		width: 370px;
+	}
+	.dog-science-and-technology .pic{
+		height: 180px;
+	}
+	.dog-science-and-technology .col-umns-2{
+		width: 400px;
+	}
+	.w450 .pic{
+		height: 375px;
+	}
+}
+@media(max-width: 1199px){
+	.dog-science-and-technology .col-umns-1{
+		width: 303px;
+	}
+	.dog-science-and-technology .pic{
+		height: 120px;
+	}
+	.dog-science-and-technology .col-umns-2{
+		width: 333px;
+	}
+	.w450 .pic{
+		height: 255px;
+	}
+}
+@media(max-width: 991px){
+
+	.dog-science-and-technology .col-umns-1{
+		width: 100%;
+	}
+	.dog-science-and-technology .pic{
+		padding-top: 50%;
+	}
+	.dog-science-and-technology .col-umns-2{
+		width: 100%;
+		padding-bottom: 15px;
+	}
+	.w450 .pic{
+
+		display: none;
+		padding-top: 100%;
+	}
+}
